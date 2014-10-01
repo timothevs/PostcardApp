@@ -13,6 +13,8 @@
 		4CA4E62319DAFA8200B500D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA4E62219DAFA8200B500D7 /* Images.xcassets */; };
 		4CA4E62619DAFA8200B500D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA4E62419DAFA8200B500D7 /* LaunchScreen.xib */; };
 		4CA4E63219DAFA8200B500D7 /* PostcardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA4E63119DAFA8200B500D7 /* PostcardAppTests.swift */; };
+		4CA4E63C19DAFCFB00B500D7 /* CUBEN-12-Space-new-2-iPhone5-SimonCPage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA4E63B19DAFCFB00B500D7 /* CUBEN-12-Space-new-2-iPhone5-SimonCPage.jpg */; };
+		4CA4E63E19DAFF2100B500D7 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA4E63D19DAFF2100B500D7 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4CA4E62B19DAFA8200B500D7 /* PostcardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA4E63019DAFA8200B500D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA4E63119DAFA8200B500D7 /* PostcardAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardAppTests.swift; sourceTree = "<group>"; };
+		4CA4E63B19DAFCFB00B500D7 /* CUBEN-12-Space-new-2-iPhone5-SimonCPage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "CUBEN-12-Space-new-2-iPhone5-SimonCPage.jpg"; sourceTree = "<group>"; };
+		4CA4E63D19DAFF2100B500D7 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		4CA4E61919DAFA8200B500D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CA4E63D19DAFF2100B500D7 /* AlbertEinsteinStamp.jpg */,
+				4CA4E63B19DAFCFB00B500D7 /* CUBEN-12-Space-new-2-iPhone5-SimonCPage.jpg */,
 				4CA4E61A19DAFA8200B500D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				4CA4E62119DAFA8200B500D7 /* Main.storyboard in Resources */,
 				4CA4E62619DAFA8200B500D7 /* LaunchScreen.xib in Resources */,
+				4CA4E63E19DAFF2100B500D7 /* AlbertEinsteinStamp.jpg in Resources */,
+				4CA4E63C19DAFCFB00B500D7 /* CUBEN-12-Space-new-2-iPhone5-SimonCPage.jpg in Resources */,
 				4CA4E62319DAFA8200B500D7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
