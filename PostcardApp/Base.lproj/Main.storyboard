@@ -48,7 +48,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toZ-Ab-Gr3">
-                                <rect key="frame" x="23" y="89" width="187" height="128"/>
+                                <rect key="frame" x="16" y="161" width="187" height="56"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -77,6 +77,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cgH-7B-wBy">
                                 <rect key="frame" x="233" y="89" width="126" height="128"/>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsJ-ND-d83">
+                                <rect key="frame" x="16" y="89" width="199" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -85,6 +91,7 @@
                         <outlet property="enterMessageTextField" destination="mrU-dF-FvP" id="SOx-Fy-VdC"/>
                         <outlet property="enterNameTextField" destination="T6B-uz-Yz3" id="xBB-dl-vNx"/>
                         <outlet property="messageLabel" destination="toZ-Ab-Gr3" id="wHL-pG-lBW"/>
+                        <outlet property="nameLabel" destination="tsJ-ND-d83" id="AXD-e3-4JZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KJy-Q6-PJY" userLabel="First Responder" sceneMemberID="firstResponder"/>
